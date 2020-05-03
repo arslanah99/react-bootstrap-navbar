@@ -1,5 +1,5 @@
 import React from 'react';
-import * as ReactBootStrap from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import {
     BrowserRouter as Router,
     Link
