@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import stadium from "../assets/images/stadium.jpg";
 
 const Feature = () => {
-    return(
-        <div className="App">
-            <h1>Feature HOURS</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <img
+        src={stadium}
+        style={{
+          width: "100%",
+          height: "100vh",
+          objectFit: "cover",
+        }}
+      />
+    </div>
+  );
+};
 
 export default Feature;

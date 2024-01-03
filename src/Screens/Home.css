@@ -1,0 +1,21 @@
+.cool-box {
+    background-color: #61dafb;
+    border: 2px solid #282c34;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cool-box h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cool-box p {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+  }
+  
