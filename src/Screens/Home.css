@@ -18,4 +18,29 @@
     font-size: 16px;
     margin: 0;
   }
+  .winprize{
+    font-size: 14px;
+    line-height: 20px;
+    color: #2072E4;
+    background: linear-gradient(90deg, #FFFFFF 0%, #E3EFFF 50.93%, #FFFFFF 101.85%);
+    border-radius: 33px;
+    text-align: center;
+    font-family: 'robotomedium';
+    font-weight: normal;
+    padding: 8px 15px;
+    max-width: 513px;
+    width: auto;
+    margin: 0 auto 20px;
+}
+.letsstarts{
+  font-size: 23px;
+  line-height: 26px;
+  font-family: 'robotobold';
+  font-weight: bold;
+  background: #121FCF;
+  background: linear-gradient(to right, #E10000 0%, #2B0101 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
   

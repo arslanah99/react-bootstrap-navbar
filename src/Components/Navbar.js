@@ -10,11 +10,12 @@ const NavBar = () => {
         expand="xl"
         variant="dark"
         style={{
-          position: "absolute",
+          // position: "absolute",
           width: "100%",
           height: "10vh",
-          opacity: "0.8",
+          // opacity: "0.8",
           backgroundColor: "black",
+          background:" linear-gradient(90deg, #78b4f4 0%, #78b4f4 20%, #78b4f4 80%)",
 
           // background: "linear-gradient(90deg, #d3e5ff 60%, cyan)",
         }}
