@@ -1,31 +1,27 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import * as ReactBootStrap from "react-bootstrap";
 import DankMemes from "./Components/DankMemes";
 import Features from "./Components/Features";
 import Pricing from "./Components/Pricing";
 import MoreDeets from "./Components/MoreDeets";
-import NavBar from "./Components/Navbar"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
+import NavBar from "./Components/Navbar";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./Screens/Home";
 
 function App() {
   return (
     <div className="App">
-        <Router>
+      <Router>
+        
         <NavBar />
- 
+        <Home />
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/features" component={Features}>
-              <Features />
+            <Features />
           </Route>
           <Route path="/pricing" component={Pricing}>
             <Pricing />
@@ -37,7 +33,7 @@ function App() {
             <DankMemes />
           </Route>
         </Switch>
-    </Router>
+      </Router>
     </div>
   );
 }
